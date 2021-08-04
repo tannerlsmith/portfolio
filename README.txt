@@ -1,2 +1,2 @@
 My professionally created portfolio <br>
-link: 
+link: https://tannerlsmith.github.io/portfolio/
