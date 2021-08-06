@@ -1810,66 +1810,6 @@ input, select, textarea {
 					top: 0;
 				}
 
-/* Dates */
-
-	ul.dates {
-		list-style: none;
-		padding-left: 0;
-	}
-
-		ul.dates li {
-			position: relative;
-			border-top: solid 1px #ddd;
-			padding: 1.3em 0 1.3em 6.75em;
-		}
-
-		ul.dates .date {
-			display: block;
-			position: absolute;
-			left: 0;
-			top: 1.3em;
-			background-color: #d52349;
-			height: 3.5em;
-			text-align: center;
-			color: #fff;
-			line-height: 1em;
-			border-top-left-radius: 5px;
-			border-bottom-left-radius: 5px;
-			padding: 0.5em 0.75em 0 1em;
-		}
-
-			ul.dates .date:after {
-				content: '';
-				position: absolute;
-				bottom: 0;
-				right: -1.2em;
-				border-left: solid 1.25em #d52349;
-				border-top: solid 1.8em transparent;
-				border-bottom: solid 1.8em transparent;
-			}
-
-			ul.dates .date strong {
-				display: block;
-				font-size: 1.75em;
-				padding-top: 0.15em;
-			}
-
-		ul.dates h3 {
-			font-size: 1.1em;
-		}
-
-		ul.dates p {
-			margin: 0;
-		}
-
-		ul.dates li:first-child {
-			border-top: 0;
-			padding-top: 0;
-		}
-
-			ul.dates li:first-child .date {
-				top: 0;
-			}
 
 /* Divided */
 
@@ -1914,7 +1854,7 @@ input, select, textarea {
 				height: 3em;
 				text-align: center;
 				border-radius: 5px;
-				background: #888;
+				background: #257fb8;
 				-moz-transition: background-color .25s ease-in-out;
 				-webkit-transition: background-color .25s ease-in-out;
 				-ms-transition: background-color .25s ease-in-out;
@@ -1926,14 +1866,6 @@ input, select, textarea {
 					font-size: 2em;
 					line-height: 1.5em;
 				}
-
-				ul.social li a.fa-facebook {
-					background: #3c5a98;
-				}
-
-					ul.social li a.fa-facebook:hover {
-						background: #4c6aa8;
-					}
 
 				ul.social li a.fa-twitter {
 					background: #2daae4;
@@ -2117,9 +2049,9 @@ input, select, textarea {
 				}
 
 				#nav > ul > li.current > a {
-					background: #d52349;
-					color: #fff !important;
+					color: #444 !important;
 					font-weight: 700;
+					text-decoration: underline;
 				}
 
 	.dropotron {
@@ -2173,7 +2105,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/pic01.jpg");
+		background-image: linear-gradient(#FFFFFF, #F5F8FA, #E1E8ED);
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
@@ -2191,7 +2123,7 @@ input, select, textarea {
 		}
 
 			#banner header h2 {
-				color: #fff;
+				color: #E1E8ED;
 				font-weight: 700;
 				font-size: 2.5em;
 				margin: 0 0 0.65em 0;
@@ -2203,7 +2135,7 @@ input, select, textarea {
 			
 			#banner header li {
 				display: inline;
-				color: #d52349;
+				color: #1DA1F2;
 				padding: 0;
 				font-style: normal;
 				margin: 0;
@@ -2312,15 +2244,15 @@ input, select, textarea {
 		}
 
 		#footer a {
-			color: #c5c4c4;
+			color: white;
 		}
 
 		#footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
-			color: #fff;
+			color: #1DA1F2;
 		}
 
 			#footer h2 a, #footer h3 a, #footer h4 a, #footer h5 a, #footer h6 a, #footer strong a, #footer b a {
-				color: inherit;
+				color: #1DA1F2;
 			}
 
 		#footer ul.contact li,
@@ -2347,8 +2279,8 @@ input, select, textarea {
 
 		#copyright ul.links {
 			display: inline-block;
-			background: #2C2929;
-			background: rgba(255, 255, 255, 0.05);
+			background: #1DA1F2;
+			color: white;
 			border-radius: 5px;
 			margin: 0;
 			padding: 0.85em 2.25em 0.85em 2.25em;
